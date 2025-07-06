@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-Flask
+flask
+jinja2
 gunicorn
-=======
-Flask
-gunicorn
->>>>>>> 852146f (Initial commit with all project files)
-werkzeug
