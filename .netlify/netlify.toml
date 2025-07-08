@@ -1,0 +1,18 @@
+[build]
+publish = "C:\\Users\\lahar\\html\\student collabration"
+command = "npm run build" # or leave blank if no build step
+
+[functions]
+directory = "netlify/functions" # Optional: if using serverless functions
+
+[[redirects]]
+from = "/api/*"
+to = "http://localhost:5000/:splat"
+status = 200
+force = true
+
+[build.processing]
+skip_processing = true
+
+[build.environment]
+NODE_ENV = "production"
